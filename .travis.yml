@@ -12,4 +12,5 @@ python:
 script:
   - python setup.py install
   - pip install freezegun
+  - pip install sqlalchemy
   - pytest 
